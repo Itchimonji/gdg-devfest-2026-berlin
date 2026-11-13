@@ -1,0 +1,9 @@
+[submodule ".gemini/skills/google-skills"]
+	path = .gemini/skills/google-skills
+	url = https://github.com/google/skills.git
+	branch = main
+
+[submodule "examples/cloud-function/.gemini/skills/google-skills"]
+	path = .examples/cloud-function/gemini/skills/google-skills
+	url = https://github.com/google/skills.git
+	branch = main
