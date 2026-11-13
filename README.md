@@ -2,7 +2,7 @@
 
 # Stop Reinventing the Wheel: Building a Secure GCP Foundation with Terraform
 
-[![GDG DevFest Berlin 2026](https://img.shields.io/badge/GDG%20DevFest-Berlin%202026-4285F4?logo=google&logoColor=white)](https://gdg.community.dev/)
+[![GDG DevFest Berlin 2026](https://img.shields.io/badge/GDG%20DevFest-Berlin%202026-4285F4?logo=google&logoColor=white)](https://2026.devfest-berlin.de/)
 [![Google Cloud](https://img.shields.io/badge/Google%20Cloud-Platform-34A853?logo=googlecloud&logoColor=white)](https://cloud.google.com/)
 [![Terraform](https://img.shields.io/badge/Terraform-%3E%3D%201.5-844FBA?logo=terraform&logoColor=white)](https://www.terraform.io/)
 [![Cloud Foundation Toolkit](https://img.shields.io/badge/CFT-Example%20Foundation-EA4335)](https://github.com/terraform-google-modules/terraform-example-foundation)
