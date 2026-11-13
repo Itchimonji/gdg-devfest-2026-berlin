@@ -12,6 +12,8 @@
 
 ---
 
+Speaker Deck: https://speakerdeck.com/itchimonji
+
 ## 📌 Session Overview
 
 Many organizations beginning their Google Cloud journey make the mistake of building their cloud foundation from scratch. This "DIY Landing Zone" approach almost always leads to:
