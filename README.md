@@ -389,6 +389,7 @@ Once installed, Gemini CLI automatically recognizes skills located under `.gemin
 - [Google Cloud Architecture Framework](https://cloud.google.com/architecture/framework) - Best practices for security, reliability, cost optimization, and operational excellence.
 - [Google Skills Repository](https://github.com/google/skills) - Curated skills for agentic developer workflows.
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) - AI-powered CLI tool for developers.
+- [Google Cloud Adaption Framework](https://cloud.google.com/adoption-framework) - Google Cloud's official Adaption Framework
 
 ---
 
