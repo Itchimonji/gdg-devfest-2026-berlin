@@ -385,6 +385,7 @@ Once installed, Gemini CLI automatically recognizes skills located under `.gemin
 ## Essential References & Further Reading
 
 - [terraform-example-foundation (GitHub)](https://github.com/terraform-google-modules/terraform-example-foundation) - The official Google Cloud blueprint repository.
+- [terraform-google-modules (GitHub)](https://github.com/terraform-google-modules) - The official Google Cloud Terraform modules.
 - [Cloud Foundation Toolkit (CFT)](https://cloud.google.com/foundation-toolkit) - Google Cloud's official collection of modular IaC components.
 - [Google Cloud Architecture Framework](https://cloud.google.com/architecture/framework) - Best practices for security, reliability, cost optimization, and operational excellence.
 - [Google Skills Repository](https://github.com/google/skills) - Curated skills for agentic developer workflows.
