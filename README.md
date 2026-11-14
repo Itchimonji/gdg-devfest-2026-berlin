@@ -14,7 +14,7 @@
 
 Speaker Deck: https://speakerdeck.com/itchimonji
 
-## 📌 Session Overview
+## Session Overview
 
 Many organizations beginning their Google Cloud journey make the mistake of building their cloud foundation from scratch. This "DIY Landing Zone" approach almost always leads to:
 
@@ -29,7 +29,7 @@ This repository serves as a **lightweight, practical companion** to the presenta
 
 ---
 
-## 🏗️ How the Terraform Example Foundation Works
+## How the Terraform Example Foundation Works
 
 The `terraform-example-foundation` organizes enterprise cloud infrastructure into a sequential **multi-stage pipeline**. Each stage has its own dedicated Service Account, Cloud Storage state bucket, and scope of responsibility.
 
@@ -84,7 +84,7 @@ The `terraform-example-foundation` organizes enterprise cloud infrastructure int
 
 ---
 
-## 🔑 Core Architectural Pillars
+## Core Architectural Pillars
 
 1. **Principle of Least Privilege:**  
    Every stage executes using its own dedicated Google service account (e.g., `sa-terraform-net` can configure VPCs and subnets, but has no permissions to alter organization policies or decrypt KMS keys).
@@ -97,7 +97,7 @@ The `terraform-example-foundation` organizes enterprise cloud infrastructure int
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 This repository models the **Stage 5 (`app-infra`)** pattern, demonstrating how an application team cleanly manages infrastructure across environments while reusing CFT modules:
 
@@ -139,7 +139,7 @@ gdg-devfest-2026-berlin/
 
 ---
 
-## ⚙️ What the Cloud Function Does (Workload Logic)
+## What the Cloud Function Does (Workload Logic)
 
 The sample workload deployed by this repository models a production-grade, scheduled event-driven ingestion service. Here is how it operates from trigger to completion:
 
@@ -175,7 +175,7 @@ The sample workload deployed by this repository models a production-grade, sched
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -261,7 +261,7 @@ terraform apply
 
 ---
 
-## 🧪 Testing & Verifying the Pipeline (Live Demo Walkthrough)
+## Testing & Verifying the Pipeline (Live Demo Walkthrough)
 
 Once `terraform apply` completes, verify the automated scheduled pipeline end-to-end:
 
@@ -340,7 +340,7 @@ gcloud functions logs read fn-datacenter-1-dev \
 
 ---
 
-## 🧹 Cleanup & Cost Protection (Teardown)
+## Cleanup & Cost Protection (Teardown)
 
 To avoid recurring Google Cloud charges after testing or presenting, tear down the provisioned infrastructure:
 
@@ -360,15 +360,15 @@ terraform destroy
 
 ---
 
-## 🤖 Enhancing IaC with Gemini CLI & Google Skills
+## Enhancing IaC with Gemini CLI & Google Skills
 
 Modern cloud engineering is accelerated with AI developer assistants. This repository integrates official [Google Cloud Skills](https://github.com/google/skills) via Git submodules to work with the **Gemini CLI**.
 
 ### Why Use Gemini CLI with Google Skills?
 
-- 🔍 **Architecture & Pattern Lookup:** Instantly query best practices for Cloud Run, Cloud Functions, and VPC SC directly in your terminal.
-- 🛡️ **IAM Least Privilege Checks:** Analyze Terraform IAM bindings before running `terraform apply`.
-- ⚡ **Rapid Module Scaffolding:** Generate CFT-compliant Terraform modules that follow Google's Cloud Foundation standards.
+- **Architecture & Pattern Lookup:** Instantly query best practices for Cloud Run, Cloud Functions, and VPC SC directly in your terminal.
+-  **IAM Least Privilege Checks:** Analyze Terraform IAM bindings before running `terraform apply`.
+- **Rapid Module Scaffolding:** Generate CFT-compliant Terraform modules that follow Google's Cloud Foundation standards.
 
 ### Installation & Usage
 
@@ -382,7 +382,7 @@ Once installed, Gemini CLI automatically recognizes skills located under `.gemin
 
 ---
 
-## 📚 Essential References & Further Reading
+## Essential References & Further Reading
 
 - [terraform-example-foundation (GitHub)](https://github.com/terraform-google-modules/terraform-example-foundation) - The official Google Cloud blueprint repository.
 - [Cloud Foundation Toolkit (CFT)](https://cloud.google.com/foundation-toolkit) - Google Cloud's official collection of modular IaC components.
@@ -392,6 +392,6 @@ Once installed, Gemini CLI automatically recognizes skills located under `.gemin
 
 ---
 
-## 🤝 Community & Feedback
+## Community & Feedback
 
 Presented at **GDG DevFest Berlin 2026**. Feel free to fork, experiment, open issues, or submit PRs with questions or suggestions!
